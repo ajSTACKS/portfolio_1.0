@@ -1,0 +1,70 @@
+@import 'reset';
+@import 'variables';
+@import 'grid';
+@import 'global';
+/*
+Pages
+*/
+@import "home";
+@import 'about';
+/*
+Projects
+*/
+@import 'projects/index';
+@import 'projects/show';
+/*
+blog
+*/
+@import 'blog/index';
+@import 'blog/show';
+
+*{
+box-sizing: border-box;
+}
+body{
+  background: $bodyBG;
+}
+header {
+  background: $headerBG;
+  padding: 15px 20px;
+  position: fixed;
+  overflow: auto;
+  width: 100%;
+  .logo {
+    display: inline-block;
+    font-family: $displayFont;
+    font-size: 1.3rem;
+    a{
+      color: white;
+    }
+
+  }
+  .menu {
+    display: inline-block;
+    float: right;
+    ul{
+      li{
+        padding: 0 10px;
+        display: inline-block;
+        a {
+          color: white;
+          font-family: $mainFont;
+          font-size: 1.1rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+h1 {
+  display: block;
+  font-family: $displayFont;
+  font-size: 3rem;
+  font-weight: 300;
+  flex-direction: column;
+  margin: 2rem 0;
+  text-align: center;
+}
+.content-area{
+  padding-top: 51px;
+}
