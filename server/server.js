@@ -10,6 +10,6 @@ app.set('views', path.join(__dirname, '../client/src/views'));
 
 app.use(webRoutes);
 
-app.listen(3005, () => {
+app.listen(process.env.PORT || 3005, () => {
       console.log('This server is running on http://www.localhost:3005/ to stop server press Ctrl + C');
     });
