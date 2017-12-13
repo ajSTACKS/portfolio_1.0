@@ -3,6 +3,7 @@ const app = express();
 const webRoutes = require('./routes/web.js');
 const pug = require('pug');
 const path = require('path');
+require('dotenv').config();
 
 app.use(express.static('client/public'));
 app.set('view engine', 'pug');
@@ -11,5 +12,5 @@ app.set('views', path.join(__dirname, '../client/src/views'));
 app.use(webRoutes);
 
 app.listen(process.env.PORT || 3005, () => {
-      console.log('This server is running on http://www.localhost:3005/ to stop server press Ctrl + C');
+      console.log('This server is running on http://www.localhost:3005/ to stop server press Ctrl + C', process.env.DB_USERNAME);
     });
