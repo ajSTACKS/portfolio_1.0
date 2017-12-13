@@ -45,9 +45,11 @@ projectsController.index = (req, res) => { //- index is action
             img: 'https://cdn.dribbble.com/users/13307/screenshots/1574202/fashion.jpg',
           },
         ];
+          var testingVar = process.env.DB_USERNAME;
 
           res.render('projects/index', {
             projects: projects, //- callback, pass down an object
+            testingVar: testingVar, //- pass it down to view 
           });
         };
 
