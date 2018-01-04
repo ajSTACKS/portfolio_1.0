@@ -1,0 +1,20 @@
+.blog-page.create-page {
+  label{
+    font-weight: 700;
+    display: block;
+    margin: 0 0 10px;
+
+  }
+  input, textarea {
+    margin-bottom: 20px;
+    width: 75%;
+  }
+  button{
+    color:white;
+   text-decoration:none;
+   padding:5px 10px;
+   border-radius:3px;
+   font-family: 'Poiret One', cursive;
+   font-size:1.2em;
+  }
+}
