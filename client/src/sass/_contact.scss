@@ -7,8 +7,16 @@
       margin-bottom: 1.2rem;
     }
     .icons {
-      color: blue;
-      cursor: pointer;
+      text-align: center;
+      .fa{
+        font-size: 2rem;
+        color: black;
+        cursor: pointer;
+        padding: 15px;
+        padding-right: 15px;
+        // margin-right: 50px;
+      }
+
     }
   }
 }

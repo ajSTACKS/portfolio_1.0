@@ -4,9 +4,9 @@ const projectsController = {};
 
 projectsController.index = (req, res) => { //- index is action
           const projects = [{
-            title: 'Dashboard',
-            slug: 'dashboard',
-            tags: ['html', 'css', 'javascript', 'php'],
+            title: 'Social Network',
+            slug: 'socialNetwork',
+            tags: ['html', 'css'],
             date: '12/24/17',
             img: 'https://cdn.dribbble.com/users/13307/screenshots/1574202/fashion.jpg',
           },
@@ -49,7 +49,7 @@ projectsController.index = (req, res) => { //- index is action
 
           res.render('projects/index', {
             projects: projects, //- callback, pass down an object
-            testingVar: testingVar, //- pass it down to view 
+            testingVar: testingVar, //- pass it down to view
           });
         };
 
