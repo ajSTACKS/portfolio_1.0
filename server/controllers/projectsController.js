@@ -5,22 +5,22 @@ const projectsController = {};
 projectsController.index = (req, res) => { //- index is action
           const projects = [{
             title: 'Social Network',
-            slug: 'socialNetwork',
+            slug: 'https://repl.it/@stacksaj/facebook-clone',
             tags: ['html5', 'css3'],
             date: '12/24/17',
             img: '/img/fbscreen.png',
           },
           {
-            title: 'Python',
+            title: 'Album Saved',
             slug: 'python',
-            tags: ['html', 'REST api', 'react', 'python'],
+            tags: ['html5', 'sass', 'javascript'],
             date: '12/24/17',
             img: '/img/onclickscreen.png',
           },
           {
-            title: 'AI/ML',
+            title: 'Pokedex clone',
             slug: 'ai',
-            tags: ['ML', 'AI', 'js', 'Tensorflow'],
+            tags: ['jQuery', 'sass', 'Ajax', 'json'],
             date: '12/24/17',
             img: '/img/pokemondata.png',
           },
