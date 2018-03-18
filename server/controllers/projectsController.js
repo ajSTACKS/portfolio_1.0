@@ -11,15 +11,15 @@ projectsController.index = (req, res) => { //- index is action
             img: '/img/fbscreen.png',
           },
           {
-            title: 'Album Saved',
-            slug: 'python',
+            title: 'On Click Notifications',
+            slug: 'https://repl.it/@stacksaj/onclick-notifications',
             tags: ['html5', 'sass', 'javascript'],
             date: '12/24/17',
             img: '/img/onclickscreen.png',
           },
           {
             title: 'Pokedex clone',
-            slug: 'ai',
+            slug: 'https://codepen.io/ajSTACKS/project/editor/ARPKBz',
             tags: ['jQuery', 'sass', 'Ajax', 'json'],
             date: '12/24/17',
             img: '/img/pokemondata.png',
