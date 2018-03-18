@@ -6,43 +6,23 @@ projectsController.index = (req, res) => { //- index is action
           const projects = [{
             title: 'Social Network',
             slug: 'socialNetwork',
-            tags: ['html', 'css'],
+            tags: ['html5', 'css3'],
             date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/13307/screenshots/1574202/fashion.jpg',
+            img: '/img/fbscreen.png',
           },
           {
             title: 'Python',
             slug: 'python',
             tags: ['html', 'REST api', 'react', 'python'],
             date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/412187/screenshots/2022118/landing.png',
+            img: '/img/onclickscreen.png',
           },
           {
             title: 'AI/ML',
             slug: 'ai',
             tags: ['ML', 'AI', 'js', 'Tensorflow'],
             date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/1274655/screenshots/3178348/1233333_1x.jpg',
-          },
-          {
-            title: 'Blog',
-            slug: 'blog',
-            tags: ['html5', 'css3', 'Angular', 'Node'],
-            date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/13307/screenshots/1574202/fashion.jpg',
-          },
-          {
-            title: 'Backend',
-            slug: 'backend',
-            tags: ['JSON', 'XML', 'Linux', 'php'],
-            date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/14501/screenshots/1877706/upcoming-website.png',
-          },
-          {
-            title: 'Dash',
-            tags: ['VR', 'Heroku', 'PHP', 'MongoDB'],
-            date: '12/24/17',
-            img: 'https://cdn.dribbble.com/users/13307/screenshots/1574202/fashion.jpg',
+            img: '/img/pokemondata.png',
           },
         ];
           var testingVar = process.env.DB_USERNAME;
