@@ -24,6 +24,13 @@ projectsController.index = (req, res) => { //- index is action
             date: '12/24/17',
             img: '/img/pokemondata.png',
           },
+          {
+            title: 'Realestate',
+            slug: '/img/realestateapp.PNG',
+            tags: ['html5', 'css3'],
+            date: '12/24/17',
+            img: '/img/realestateapp.PNG',
+          },
         ];
           var testingVar = process.env.DB_USERNAME;
 
