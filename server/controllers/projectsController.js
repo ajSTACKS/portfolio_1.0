@@ -8,7 +8,7 @@ projectsController.index = (req, res) => { //- index is action
               slug: 'http://skyplanet.herokuapp.com/',
               tags: ['HTML', 'CSS', 'jQuery'],
               date: '12/24/17',
-              img: '/img/skyplanet.png',
+              img: '/img/skyplanet.PNG',
             },{
             title: 'Social Network',
             slug: 'https://repl.it/@stacksaj/facebook-clone',
