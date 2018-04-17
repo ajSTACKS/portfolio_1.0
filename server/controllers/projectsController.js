@@ -4,16 +4,22 @@ const projectsController = {};
 
 projectsController.index = (req, res) => { //- index is action
           const projects = [{
+              title: 'Travel Site',
+              slug: 'http://skyplanet.herokuapp.com/',
+              tags: ['HTML', 'CSS', 'jQuery'],
+              date: '12/24/17',
+              img: '/img/skyplanet.png',
+            },{
             title: 'Social Network',
             slug: 'https://repl.it/@stacksaj/facebook-clone',
-            tags: ['html5', 'css3'],
+            tags: ['HTML', 'CSS'],
             date: '12/24/17',
             img: '/img/fbscreen.png',
           },
           {
             title: 'On Click Notifications',
             slug: 'https://repl.it/@stacksaj/onclick-notifications',
-            tags: ['html5', 'sass', 'javascript'],
+            tags: ['HTML', 'sass', 'javascript'],
             date: '12/24/17',
             img: '/img/onclickscreen.png',
           },
@@ -27,7 +33,7 @@ projectsController.index = (req, res) => { //- index is action
           {
             title: 'Realestate',
             slug: '/img/realestateapp.PNG',
-            tags: ['html5', 'css3'],
+            tags: ['HTML', 'CSS'],
             date: '12/24/17',
             img: '/img/realestateapp.PNG',
           },
