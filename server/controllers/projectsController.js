@@ -23,13 +23,6 @@ projectsController.index = (req, res) => { //- index is action
             date: '12/24/17',
             img: '/img/phomimosa.PNG',
           },
-            {
-            title: 'Social Network',
-            slug: 'https://repl.it/@stacksaj/facebook-clone',
-            tags: ['HTML5', 'CSS3'],
-            date: '12/24/17',
-            img: '/img/fbscreen.png',
-          },
           {
             title: 'On Click Notifications',
             slug: 'https://repl.it/@stacksaj/onclick-notifications',
@@ -43,7 +36,13 @@ projectsController.index = (req, res) => { //- index is action
             tags: ['JQuery', 'SASS', 'AJAX', 'json'],
             date: '12/24/17',
             img: '/img/pokemondata.png',
-          },
+          },{
+          title: 'Social Network',
+          slug: 'https://repl.it/@stacksaj/facebook-clone',
+          tags: ['HTML5', 'CSS3'],
+          date: '12/24/17',
+          img: '/img/fbscreen.png',
+        },
           {
             title: 'Realestate',
             slug: '/img/realestateapp.PNG',

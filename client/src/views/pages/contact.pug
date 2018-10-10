@@ -12,11 +12,21 @@ block content
           p.
              In need of an extra help with building, finishing projects? Get in touch with me through social media or email me at angelojimenez@protonmail.com
           div(class="icons")
-            a(href='https://www.youtube.com/channel/UCK2pW0QT2PZt_90RHWjCNAg?view_as=public')
-              i.fa.fa-youtube(aria-hidden='true')
-            a(href='https://www.linkedin.com/in/ajstacks/') 
-              i.fa.fa-linkedin(aria-hidden='true')
-            a(href='https://github.com/ajSTACKS')
-              i.fa.fa-github(aria-hidden='true')
-            a(href='https://twitter.com/plantgelo')
-              i.fa.fa-twitter(aria-hidden='true')
+            div(class="iconContainer")
+              div(class="social-buttons")
+                // LinkedIn Button
+                a.social-margin(href='https://www.linkedin.com/in/ajstacks/', target='blank')
+                  .social-icon.linkedin
+                    i.fa.fa-linkedin(aria-hidden='true')
+                // Github Button
+                a.social-margin(href='https://github.com/ajSTACKS', target='blank')
+                  .social-icon.github
+                    i.fa.fa-github-alt(aria-hidden='true')
+                // Youtube Button
+                a.social-margin(href='https://www.youtube.com/channel/UCK2pW0QT2PZt_90RHWjCNAg?view_as=public', target='blank')
+                  .social-icon.youtube
+                    i.fa.fa-youtube(aria-hidden='true')
+                // WipButton
+                a.social-margin(href='http://twitter.com/plantgelo', target='blank')
+                  .social-icon.twitter
+                    i.fa.fa-twitter(aria-hidden='true')
