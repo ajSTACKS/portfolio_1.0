@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200i,400|Poiret+One|Roboto+Condensed:300,400,700');
-$headerBG: rgb(224, 235, 232);
-$topLeftBG: #F0F6FF;
-$topRightBG: rgb(102, 167, 213);
-$linkHoverColor: rgb(250, 109, 104);
-$bodyBG: #F0F6FF;
+$headerBG: #373530;
+$topRightBG: rgba(255,255,255,0.95);
+$topLeftBG: #05D3BA;
+$linkHoverColor: #05D3BA;
+$bodyBG: rgba(255,255,255,0.95);
 $shadowBG: #E2DEFF;
+$contentBox: #eaf9ec;
+$fontColor: #1d2d35;
 
 $mainFont: 'Roboto Condensed', sans-serif;
 $displayFont: 'Poiret One', cursive;
