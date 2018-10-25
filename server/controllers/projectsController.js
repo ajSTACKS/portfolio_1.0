@@ -10,24 +10,23 @@ projectsController.index = (req, res) => { //- index is action
               date: '12/24/17',
               img: '/img/ebook.PNG',
             },{
-              title: 'Travel Service',
-              slug: 'http://skyplanet.herokuapp.com/',
-              tags: ['HTML5', 'Materialized CSS', 'JQuery'],
+              title: 'Restaurant',
+              slug: 'https://phomimosawa.com',
+              tags: ['PHP', 'CSS3', 'WordPress'],
               date: '12/24/17',
-              img: '/img/skyplanet.PNG',
+              img: '/img/phomimosa.PNG',
             },{
             title: 'Tour Guide',
             slug: 'https://baligocab.com',
             tags: ['Animation', 'Elementor', 'WordPress'],
             date: '12/24/17',
             img: '/img/baligocab.PNG',
-          },
-            {
-            title: 'Restaurant',
-            slug: 'https://phomimosawa.com',
-            tags: ['PHP', 'CSS3', 'WordPress'],
+          },{
+            title: 'Travel Service',
+            slug: 'http://skyplanet.herokuapp.com/',
+            tags: ['HTML5', 'Materialized CSS', 'JQuery'],
             date: '12/24/17',
-            img: '/img/phomimosa.PNG',
+            img: '/img/skyplanet.PNG',
           },
           {
             title: 'On Click Notifications',
