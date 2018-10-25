@@ -4,22 +4,28 @@ const projectsController = {};
 
 projectsController.index = (req, res) => { //- index is action
           const projects = [{
+              title: 'ebook E-commerce buy & sell',
+              slug: 'https://ebook-app-aj.herokuapp.com/',
+              tags: ['Ruby on Rails','HTML5', 'SASS'],
+              date: '12/24/17',
+              img: '/img/ebook.PNG',
+            },{
               title: 'Travel Service',
               slug: 'http://skyplanet.herokuapp.com/',
-              tags: ['HTML5', 'CSS3', 'JQuery'],
+              tags: ['HTML5', 'Materialized CSS', 'JQuery'],
               date: '12/24/17',
               img: '/img/skyplanet.PNG',
             },{
             title: 'Tour Guide',
             slug: 'https://baligocab.com',
-            tags: ['HTML5', 'CSS3', 'WordPress'],
+            tags: ['Animation', 'Elementor', 'WordPress'],
             date: '12/24/17',
             img: '/img/baligocab.PNG',
           },
             {
             title: 'Restaurant',
             slug: 'https://phomimosawa.com',
-            tags: ['HTML5', 'CSS3', 'WordPress'],
+            tags: ['PHP', 'CSS3', 'WordPress'],
             date: '12/24/17',
             img: '/img/phomimosa.PNG',
           },
@@ -37,7 +43,7 @@ projectsController.index = (req, res) => { //- index is action
             date: '12/24/17',
             img: '/img/pokemondata.png',
           },{
-          title: 'Social Network',
+          title: 'Facebook clone First-Project-EVER',
           slug: 'https://repl.it/@stacksaj/facebook-clone',
           tags: ['HTML5', 'CSS3'],
           date: '12/24/17',
